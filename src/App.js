@@ -1,4 +1,5 @@
 import './css/global.scss';
+import ExpenseItem from './components/ExpenseItem';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
           Lets start coding
         </p>
       </header>
+      <ExpenseItem />
     </div>
   );
 }
