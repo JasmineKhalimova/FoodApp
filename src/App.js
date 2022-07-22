@@ -1,15 +1,10 @@
 import './css/global.scss';
-import ExpenseItem from './components/ExpenseItem';
+import ExpenseItems from './components/ExpenseItems';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Lets start coding
-        </p>
-      </header>
-      <ExpenseItem />
+    <div className="expenses">
+      <ExpenseItems />
     </div>
   );
 }
