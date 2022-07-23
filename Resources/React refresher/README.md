@@ -43,7 +43,7 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 - New react project do not require you to import react from 'react';
 
-- old way returning JSX
-
+- old way returning JSX  
     
+![old way using JSX](https://user-images.githubusercontent.com/34685374/180603050-f2df27d9-f916-4c4a-a957-df5231e508e2.png)
 
