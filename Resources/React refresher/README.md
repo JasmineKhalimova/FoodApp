@@ -41,3 +41,9 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 - toISOString() outputs date in a string format
 
+- New react project do not require you to import react from 'react';
+
+- old way returning JSX
+
+    
+
