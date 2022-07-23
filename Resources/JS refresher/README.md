@@ -298,3 +298,33 @@ Here, we only want to print the name in the function but we pass a complete pers
 
 We get the same result as above but we save some code. By destructuring, we simply pull out the name  property and store it in a variable/ argument named name  which we then can use in the function body.
 
+## OOP
+
+- Encapsulation grouping data together. Encapsulation prevents external code from being concerned with the internal workings of an object. This facilitates code refactoring, for example allowing the author of the class to change how objects of that class represent their data internally without changing any external code 
+
+- Data Abstraction is a design pattern in which data are visible only to semantically related functions, so as to prevent misuse. The success of data abstraction leads to frequent incorporation of data hiding as a design principle in object oriented and pure functional programming e.g. public and public functions
+
+- Inheritance: Objects can contain other objects in their instance variables; this is known as object composition. For example, an object in the Employee class might contain (either directly or through a pointer) an object in the Address class, in addition to its own instance variables like "first_name" and "position". Object composition is used to represent "has-a" relationships: every employee has an address, so every Employee object has access to a place to store an Address object (either directly embedded within itself, or at a separate location addressed via a pointer). 
+
+- Polymorphism is when calling code can be independent of which class in the supported hierarchy it is operating on – the parent class or one of its descendants. Meanwhile, the same operation name among objects in an inheritance hierarchy may behave differently. 
+
+- Recursion: object methods can call other methods on the same object (including themselves), typically using a special variable or keyword called this or self. This variable is late-bound; it allows a method defined in one class to invoke another method that is defined later, in some subclass thereof.
+
+## API
+
+- Application Programming Interface is collection of functions and properties.
+
+- JIT (Just In Time) compiler compiles JS
+
+- Concanitating joing data together e.g. let number = 'this number is' . 1;
+
+- To be able to use two quotes you need to use backslash e.g. "he said" \"she said"\
+
+## Primitive Data
+- strings('hello'), numbers(integer a whole number 10 or floating point number 12.5), boolean(true or false), null(no value assigned e.g. empty), undefined(nothing has assigned) and NaN (Not A Number).
+
+## Operators 
+
+= assigment operator 
+
+- https://www.w3schools.com/js/js_operators.asp
