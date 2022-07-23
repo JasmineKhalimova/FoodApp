@@ -1,3 +1,7 @@
+## Useful courses
+
+- https://www.w3schools.com/REACT/default.asp
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -47,3 +51,9 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
     
 ![old way using JSX](https://user-images.githubusercontent.com/34685374/180603050-f2df27d9-f916-4c4a-a957-df5231e508e2.png)
 
+- State update exiting state 
+    - useState: The React useState Hook allows us to track state in a function component. State generally refers to data or properties that need to be tracking in an application. useState accepts an initial state and returns two values:
+    The current state.
+    A function that updates the state.
+
+- react only runs entire function and data only once you need to use State functions to tell it to change a state of function. 

@@ -1,4 +1,4 @@
-import ExpenseItem from './ExpenseItem.js';
+import ExpenseItem from './ExpenseItem';
 
 function ExpenseItems(props){
     const expense = [
