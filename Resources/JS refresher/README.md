@@ -1,5 +1,7 @@
 ## JS refersher
 
+- https://www.w3schools.com/js/js_intro.asp
+
 ##  Var 
 - Before the advent of ES6, var declarations ruled. There are issues associated with variables declared with var, though. That is why it was necessary for new ways to declare variables to emerge.
 
@@ -328,3 +330,7 @@ We get the same result as above but we save some code. By destructuring, we simp
 = assigment operator 
 
 - https://www.w3schools.com/js/js_operators.asp
+
+- Objects are variables too. But objects can contain many values.
+
+- An array is a special variable, which can hold more than one value. An array can hold many values under a single name, and you can access the values by referring to an index number. 
