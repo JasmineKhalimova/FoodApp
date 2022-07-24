@@ -1,9 +1,11 @@
 import './css/global.scss';
 import ExpenseItems from './components/Expenses/ExpenseItems';
+import NewExpense from './components/Expenses/NewExpense';
 
 function App() {
   return (
-    <div className="expenses">
+    <div>
+      <NewExpense />
       <ExpenseItems />
     </div>
   );
