@@ -1,6 +1,9 @@
 ## JS refersher
 
 - https://www.w3schools.com/js/js_intro.asp
+- https://developer.mozilla.org/en-US/docs/web/javascript/reference/
+- https://developer.mozilla.org/en-US/docs/web/javascript/reference/operators/operator_precedence
+
 
 ##  Var 
 - Before the advent of ES6, var declarations ruled. There are issues associated with variables declared with var, though. That is why it was necessary for new ways to declare variables to emerge.
