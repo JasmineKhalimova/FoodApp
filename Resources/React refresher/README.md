@@ -61,3 +61,11 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 - React scheduals state updates it doesn't preform it instantly.
 
 - Parent to child compopnent, child to child components not possible.
+
+- Controlled Components are those in which form's data is handled by the component's state. It takes its current value through props and makes changes through callbacks like onClick,onChange, etc. A parent component manages its own state and passes the new values as props to the controlled component.
+
+- An uncontrolled component is a component that renders form elements, where the form element's data is handled by the DOM (default DOM behavior)
+
+- Stateless and stateful architecture defines the user experience in specific ways.
+    - Stateful services keep track of sessions or transactions and react differently to the same inputs based on that history. e.g. compoenet with functionality
+    - Stateless services rely on clients to maintain sessions and center around operations that manipulate resources, rather than the state. e.g. component without functionality.
