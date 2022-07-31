@@ -59,3 +59,5 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 - react only runs entire function and data only once you need to use State functions to tell it to change a state of function. 
 
 - React scheduals state updates it doesn't preform it instantly.
+
+- Parent to child compopnent, child to child components not possible.
