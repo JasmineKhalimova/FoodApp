@@ -97,3 +97,57 @@ array.splice(1, 0, 'adding value', 200); // adding value
 array.splice(2, 2, 'world 200'); // replacing array element
 
 console.log(array);
+
+// envoking functions
+function name(){
+    var fullname = 'Jasmine Jass';
+
+    function concat(name){
+        return 'Ms ' + name;
+    }
+    return concat(fullname);
+}
+
+console.log(name());
+
+//Callable object
+function newname(fullname){
+    return fullname();
+}
+
+console.log(newname(
+    function(){
+        return 'embed';
+    }
+));
+
+// Memory Hoisting
+console.log(myName, printName());
+ var myName = 'Jasmine';
+
+ function printName(){
+    return 'Jane Doe';
+ }
+
+ // Scope 
+ let engine = {
+    maker: 'ford',
+    headGasket:{
+        pots:[
+            "psiton",
+            "piston1"
+        ]
+    }
+ }
+ console.log(engine.headGasket.pots[1]);
+
+ function runExpression(){
+    var a = 100;
+
+    function add(){
+        return a + 90;
+    }
+    return add();
+ }
+
+ console.log(runExpression());

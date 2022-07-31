@@ -337,3 +337,11 @@ We get the same result as above but we save some code. By destructuring, we simp
 - Objects are variables too. But objects can contain many values.
 
 - An array is a special variable, which can hold more than one value. An array can hold many values under a single name, and you can access the values by referring to an index number. 
+
+- var() - envoking function
+
+- Memory hoising is a feature of JS JavaScript. Hoisting refers to the process whereby the interpreter appears to move the declaration of functions, variables or classes to the top of their scope, prior to execution of the code.
+
+- Scope this of access = Member Access Operator
+
+- GC (Garbage Collection)- memory managment removes items from memory after code is runned
