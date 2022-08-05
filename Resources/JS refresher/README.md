@@ -345,3 +345,14 @@ We get the same result as above but we save some code. By destructuring, we simp
 - Scope this of access = Member Access Operator
 
 - GC (Garbage Collection)- memory managment removes items from memory after code is runned
+
+- 'This' keyword refers to an object [https://www.w3schools.com/js/js_this.asp]
+
+- 'new' keyword - The new operator lets developers create an instance of a user-defined object type or of one of the built-in object types that has a constructor function.
+
+- 'call' keyword - With the call() method, you can write a method that can be used on different objects. 
+The call() method is a predefined JavaScript method. With call(), an object can use a method belonging to another object.
+
+- Constructors is function is used to create objects
+
+- Prototypes are shared objects. Prototypes are the mechanism by which JavaScript objects inherit features from one another

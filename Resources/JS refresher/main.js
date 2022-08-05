@@ -151,3 +151,59 @@ console.log(myName, printName());
  }
 
  console.log(runExpression());
+
+// This keyword 
+const person = {
+    firstName: "John",
+    lastName: "Doe",
+    id: 5566,
+    fullName : function() {
+      return this.firstName + " " + this.lastName;
+    }
+};
+console.log(person.fullName());
+
+// new keyword 
+function Car(make, model, year) {
+    this.make = make;
+    this.model = model;
+    this.year = year;
+}
+  
+const car1 = new Car('Eagle', 'Talon TSi', 1993);
+  
+console.log(car1.make);
+
+//call method
+const newperson = {
+    fullName: function() {
+      return this.firstName + " " + this.lastName;
+    }
+  }
+  const person1 = {
+    firstName:"John",
+    lastName: "Doe"
+  }
+  const person2 = {
+    firstName:"Mary",
+    lastName: "Doe"
+}
+
+console.log(person.fullName.call(person1) + person.fullName.call(person2) );
+
+// constructor function
+function Apple(x, y, color, scope){
+    this.x = x;
+    this.y = y;
+    this.color = color;
+    this.scope = scope;
+}
+
+let apple1 = new Apple(10, 20, 'red', 200);
+let apple2 = new Apple(11, 40, 'yellow', 200);
+let apple3 = new Apple(15, 30, 'green', 200);
+
+// Prototypes
+
+
+
