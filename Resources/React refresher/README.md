@@ -69,3 +69,5 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 - Stateless and stateful architecture defines the user experience in specific ways.
     - Stateful services keep track of sessions or transactions and react differently to the same inputs based on that history. e.g. compoenet with functionality
     - Stateless services rely on clients to maintain sessions and center around operations that manipulate resources, rather than the state. e.g. component without functionality.
+
+- Array.prototype.map() - The map() method creates a new array populated with the results of calling a provided function on every element in the calling array. 
