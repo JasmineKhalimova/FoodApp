@@ -203,7 +203,30 @@ let apple1 = new Apple(10, 20, 'red', 200);
 let apple2 = new Apple(11, 40, 'yellow', 200);
 let apple3 = new Apple(15, 30, 'green', 200);
 
-// Prototypes
+// Prototypes 
+
+// Create an object:
+const person = {
+    firstName: "John",
+    lastName: "Doe",
+    id: 5566,
+    fullName : function() {
+      return this.firstName + " " + this.lastName;
+    }
+  };
+
+  function Person(first, last, age, eye) {
+    this.firstName = first;
+    this.lastName = last;
+    this.age = age;
+    this.eyeColor = eye;
+  }
+  
+  Person.prototype.nationality = "English";
+  
+  const myFather = new Person("John", "Doe", 50, "blue");
+  document.getElementById("demo").innerHTML =
+  "The nationality of my father is " + myFather.nationality;
 
 
 
