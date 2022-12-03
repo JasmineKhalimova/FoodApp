@@ -1,5 +1,10 @@
 ## JS refersher
 
+- https://www.w3schools.com/js/js_intro.asp
+- https://developer.mozilla.org/en-US/docs/web/javascript/reference/
+- https://developer.mozilla.org/en-US/docs/web/javascript/reference/operators/operator_precedence
+
+
 ##  Var 
 - Before the advent of ES6, var declarations ruled. There are issues associated with variables declared with var, though. That is why it was necessary for new ways to declare variables to emerge.
 
@@ -298,3 +303,56 @@ Here, we only want to print the name in the function but we pass a complete pers
 
 We get the same result as above but we save some code. By destructuring, we simply pull out the name  property and store it in a variable/ argument named name  which we then can use in the function body.
 
+## OOP
+
+- Encapsulation grouping data together. Encapsulation prevents external code from being concerned with the internal workings of an object. This facilitates code refactoring, for example allowing the author of the class to change how objects of that class represent their data internally without changing any external code 
+
+- Data Abstraction is a design pattern in which data are visible only to semantically related functions, so as to prevent misuse. The success of data abstraction leads to frequent incorporation of data hiding as a design principle in object oriented and pure functional programming e.g. public and public functions
+
+- Inheritance: Objects can contain other objects in their instance variables; this is known as object composition. For example, an object in the Employee class might contain (either directly or through a pointer) an object in the Address class, in addition to its own instance variables like "first_name" and "position". Object composition is used to represent "has-a" relationships: every employee has an address, so every Employee object has access to a place to store an Address object (either directly embedded within itself, or at a separate location addressed via a pointer). 
+
+- Polymorphism is when calling code can be independent of which class in the supported hierarchy it is operating on – the parent class or one of its descendants. Meanwhile, the same operation name among objects in an inheritance hierarchy may behave differently. 
+
+- Recursion: object methods can call other methods on the same object (including themselves), typically using a special variable or keyword called this or self. This variable is late-bound; it allows a method defined in one class to invoke another method that is defined later, in some subclass thereof.
+
+## API
+
+- Application Programming Interface is collection of functions and properties.
+
+- JIT (Just In Time) compiler compiles JS
+
+- Concanitating joing data together e.g. let number = 'this number is' . 1;
+
+- To be able to use two quotes you need to use backslash e.g. "he said" \"she said"\
+
+## Primitive Data
+- strings('hello'), numbers(integer a whole number 10 or floating point number 12.5), boolean(true or false), null(no value assigned e.g. empty), undefined(nothing has assigned) and NaN (Not A Number).
+
+## Operators 
+
+= assigment operator 
+
+- https://www.w3schools.com/js/js_operators.asp
+
+- Objects are variables too. But objects can contain many values.
+
+- An array is a special variable, which can hold more than one value. An array can hold many values under a single name, and you can access the values by referring to an index number. 
+
+- var() - envoking function
+
+- Memory hoising is a feature of JS JavaScript. Hoisting refers to the process whereby the interpreter appears to move the declaration of functions, variables or classes to the top of their scope, prior to execution of the code.
+
+- Scope this of access = Member Access Operator
+
+- GC (Garbage Collection)- memory managment removes items from memory after code is runned
+
+- 'This' keyword refers to an object [https://www.w3schools.com/js/js_this.asp]
+
+- 'new' keyword - The new operator lets developers create an instance of a user-defined object type or of one of the built-in object types that has a constructor function.
+
+- 'call' keyword - With the call() method, you can write a method that can be used on different objects. 
+The call() method is a predefined JavaScript method. With call(), an object can use a method belonging to another object.
+
+- Constructors is function is used to create objects
+
+- Prototypes are shared objects. Prototypes are the mechanism by which JavaScript objects inherit features from one another
