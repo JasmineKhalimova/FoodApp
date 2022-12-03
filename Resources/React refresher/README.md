@@ -1,3 +1,7 @@
+## Useful courses
+
+- https://www.w3schools.com/REACT/default.asp
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -37,4 +41,33 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## Technical Terms
 
+- JSX sand for JavaScript XML allows us to write HTML in React and makes it easier to write and add HTML in React. 
 
+- toISOString() outputs date in a string format
+
+- New react project do not require you to import react from 'react';
+
+- old way returning JSX  
+    
+![old way using JSX](https://user-images.githubusercontent.com/34685374/180603050-f2df27d9-f916-4c4a-a957-df5231e508e2.png)
+
+- State update exiting state 
+    - useState: The React useState Hook allows us to track state in a function component. State generally refers to data or properties that need to be tracking in an application. useState accepts an initial state and returns two values:
+    The current state.
+    A function that updates the state.
+
+- react only runs entire function and data only once you need to use State functions to tell it to change a state of function. 
+
+- React scheduals state updates it doesn't preform it instantly.
+
+- Parent to child compopnent, child to child components not possible.
+
+- Controlled Components are those in which form's data is handled by the component's state. It takes its current value through props and makes changes through callbacks like onClick,onChange, etc. A parent component manages its own state and passes the new values as props to the controlled component.
+
+- An uncontrolled component is a component that renders form elements, where the form element's data is handled by the DOM (default DOM behavior)
+
+- Stateless and stateful architecture defines the user experience in specific ways.
+    - Stateful services keep track of sessions or transactions and react differently to the same inputs based on that history. e.g. compoenet with functionality
+    - Stateless services rely on clients to maintain sessions and center around operations that manipulate resources, rather than the state. e.g. component without functionality.
+
+- Array.prototype.map() - The map() method creates a new array populated with the results of calling a provided function on every element in the calling array. 
